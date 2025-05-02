@@ -1,1 +1,50 @@
-# Xcodebuild/DerivedData/*.xcuserstate*.xcworkspace
+# Xcode
+*.xcuserstate
+*.xcuserdatad
+*.xcscmblueprint
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+
+# Swift Package Manager
+.build/
+Packages/
+DerivedData/
+.swiftpm/
+
+# Cocoapods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output
+
+# Build artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Personal settings
+*.moved-aside
+*.xcuserdata/
+
+# Firebase / GoogleService files (optional, depending on whether you want to track this)
+# GoogleService-Info.plist
